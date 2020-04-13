@@ -10,7 +10,6 @@
 
 
 #include <avr/pgmspace.h>
-#include "pins2_arduino.h"
 #include <DIO2.h>
 
 #include "RetroShieldAdapter.h"
