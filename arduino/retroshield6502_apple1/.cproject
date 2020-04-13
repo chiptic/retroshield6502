@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?fileVersion 4.0.0?><cproject storage_type_id="org.eclipse.cdt.core.XmlProjectDescriptionStorage">
+	<storageModule moduleId="org.eclipse.cdt.core.settings">
+		<cconfiguration id="io.sloeber.core.toolChain.release.1033179889">
+			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="io.sloeber.core.toolChain.release.1033179889" moduleId="org.eclipse.cdt.core.settings" name="Release">
+				<externalSettings/>
+				<extensions>
+					<extension id="org.eclipse.cdt.core.ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.GLDErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.MakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+				</extensions>
+			</storageModule>
+			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+				<configuration artifactName="${ProjName}" buildProperties="" description="" id="io.sloeber.core.toolChain.release.1033179889" name="Release" parent="org.eclipse.cdt.build.core.emptycfg">
+					<folderInfo id="io.sloeber.core.toolChain.release.1033179889.1764714920" name="/" resourcePath="">
+						<toolChain id="io.sloeber.core.toolChain.release.473441038" name="Arduino Toolchain (Sloeber editie)" superClass="io.sloeber.core.toolChain.release">
+							<targetPlatform archList="all" binaryParser="org.eclipse.cdt.core.ELF" id="io.sloeber.targetplatform.1947203813" name="Arduino doel" osList="all" superClass="io.sloeber.targetplatform"/>
+							<builder buildPath="${workspace_loc:/retroshield6502_apple1}/Release" id="io.sloeber.sketch.builder.246985680" keepEnvironmentInBuildfile="false" managedBuildOn="true" name="Arduino sketch bouwer" superClass="io.sloeber.sketch.builder"/>
+							<tool id="io.sloeber.tool.sketch.compiler.cpp.874689200" name="Arduino C++ bouwer" superClass="io.sloeber.tool.sketch.compiler.cpp">
+								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="io.sloeber.compiler.cpp.sketch.option.incpath.1787967023" name="Include mappen (-I)" superClass="io.sloeber.compiler.cpp.sketch.option.incpath" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/retroshield6502_apple1/core/core}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/retroshield6502_apple1/core/variant}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/retroshield6502_apple1/libraries/DIO2/src}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/retroshield6502_apple1/libraries/TimerOne}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/retroshield6502_apple1/libraries/Wire/src}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/retroshield6502_apple1/MultiFuncShield}&quot;"/>
+								</option>
+								<inputType id="io.sloeber.compiler.cpp.sketch.input.680595706" name="CPP bron bestanden" superClass="io.sloeber.compiler.cpp.sketch.input"/>
+							</tool>
+							<tool id="io.sloeber.tool.compiler.c.690887270" name="Arduino C bouwer" superClass="io.sloeber.tool.compiler.c">
+								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="io.sloeber.compiler.c.sketch.option.incpath.466182989" name="Include mappen (-I)" superClass="io.sloeber.compiler.c.sketch.option.incpath" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/retroshield6502_apple1/core/core}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/retroshield6502_apple1/core/variant}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/retroshield6502_apple1/libraries/DIO2/src}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/retroshield6502_apple1/libraries/TimerOne}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/retroshield6502_apple1/libraries/Wire/src}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/retroshield6502_apple1/MultiFuncShield}&quot;"/>
+								</option>
+								<inputType id="io.sloeber.compiler.c.sketch.input.862200117" name="C bron bestanden" superClass="io.sloeber.compiler.c.sketch.input"/>
+							</tool>
+							<tool id="io.sloeber.tool.sketch.compiler.s.1133589449" name="Arduino machine code bouwer" superClass="io.sloeber.tool.sketch.compiler.s">
+								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="io.sloeber.compiler.asm.sketch.option.incpath.1494206288" name="Include mappen (-I)" superClass="io.sloeber.compiler.asm.sketch.option.incpath" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/retroshield6502_apple1/core/core}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/retroshield6502_apple1/core/variant}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/retroshield6502_apple1/libraries/DIO2/src}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/retroshield6502_apple1/libraries/TimerOne}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/retroshield6502_apple1/libraries/Wire/src}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/retroshield6502_apple1/MultiFuncShield}&quot;"/>
+								</option>
+								<inputType id="io.sloeber.compiler.S.sketch.input.569619760" name="Assembly bron bestanden" superClass="io.sloeber.compiler.S.sketch.input"/>
+							</tool>
+							<tool id="io.sloeber.tool.ar.11466797" name="Arduino archief" superClass="io.sloeber.tool.ar"/>
+							<tool id="io.sloeber.tool.combine.1652648193" name="Arduino samenvoeger" superClass="io.sloeber.tool.combine"/>
+							<tool id="io.sloeber.tool.objcopy.eep.799417840" name="Arduino tool objcopy opdracht" superClass="io.sloeber.tool.objcopy.eep"/>
+							<tool id="io.sloeber.tool.size.2131247442" name="Arduino tool druk bestands grote" superClass="io.sloeber.tool.size"/>
+						</toolChain>
+					</folderInfo>
+					<sourceEntries>
+						<entry excluding="libraries/TimerOne/config|libraries/DIO2/VStudio|libraries/DIO2/History|libraries/DIO2/board|libraries/?*/**/?xamples/**|libraries/?*/**/?xtras/**|libraries/?*/**/test*/**|libraries/?*/**/third-party/**|libraries/**/._*|libraries/?*/utility/*/*" flags="VALUE_WORKSPACE_PATH" kind="sourcePath" name=""/>
+					</sourceEntries>
+				</configuration>
+			</storageModule>
+			<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+		</cconfiguration>
+	</storageModule>
+	<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+		<project id="retroshield6502_apple1.null.639040631" name="retroshield6502_apple1"/>
+	</storageModule>
+	<storageModule moduleId="scannerConfiguration">
+		<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+	</storageModule>
+	<storageModule moduleId="org.eclipse.cdt.core.LanguageSettingsProviders"/>
+	<storageModule moduleId="org.eclipse.cdt.make.core.buildtargets"/>
+	<storageModule moduleId="refreshScope"/>
+</cproject>
